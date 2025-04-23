@@ -12,14 +12,17 @@ namespace Servicios_18_20.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class TELEfono
+    public partial class Evento
     {
-        public int Codigo { get; set; }
-        public string Numero { get; set; }
-        public string Documento { get; set; }
-        public int CodigoTipoTelefono { get; set; }
+        public int idEventos { get; set; }
+        public int idAdministrador { get; set; }
+        public string TipoEvento { get; set; }
+        public string NombreEvento { get; set; }
+        public int TotalIngreso { get; set; }
+        public System.DateTime FechaEvento { get; set; }
+        public string Sede { get; set; }
+        public string ActiviadesPlaneadas { get; set; }
     
-        public virtual CLIEnte CLIEnte { get; set; }
-        public virtual TIpoTElefono TIpoTElefono { get; set; }
+        public virtual Administrador Administrador { get; set; }
     }
 }

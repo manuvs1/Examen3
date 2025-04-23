@@ -10,8 +10,7 @@ using System.Web.Http;
 namespace Servicios_18_20.Controllers
 {
     [RoutePrefix("api/Login")]
-    //[Authorize]: Directiva para obligar a que se tenga autorización usar al servicio
-    //[AllowAnonymous]: Directiva para que se pueda usar el servicio sin autorización.
+
     [AllowAnonymous]
     public class LoginController : ApiController
     {
