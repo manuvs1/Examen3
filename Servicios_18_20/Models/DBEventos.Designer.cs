@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\Trabajos\ITM\2025-1\App_Serv_WEB_Mi_18_20\Servicios_18_20\Servicios_18_20\Models\DBSuper.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\CAMIL\Downloads\Servicios_18_20 (1)\Servicios_18_20\Servicios_18_20\Models\DBEventos.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

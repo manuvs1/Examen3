@@ -12,23 +12,21 @@ namespace Servicios_18_20.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class FActuraCOmpra
+    public partial class Administrador
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public FActuraCOmpra()
+        public Administrador()
         {
-            this.DEtalleFacturaCompras = new HashSet<DEtalleFacturaCompra>();
+            this.Eventos = new HashSet<Evento>();
         }
     
-        public int Codigo { get; set; }
-        public int CodigoEmpleado { get; set; }
-        public string DocumentoProveedor { get; set; }
-        public System.DateTime Fecha { get; set; }
-        public System.DateTime FechaPago { get; set; }
+        public int idAministrador { get; set; }
+        public string Documento { get; set; }
+        public string NombreCompleto { get; set; }
+        public string Usuario { get; set; }
+        public string Clave { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<DEtalleFacturaCompra> DEtalleFacturaCompras { get; set; }
-        public virtual EMpleadoCArgo EMpleadoCArgo { get; set; }
-        public virtual PROVeedor PROVeedor { get; set; }
+        public virtual ICollection<Evento> Eventos { get; set; }
     }
 }

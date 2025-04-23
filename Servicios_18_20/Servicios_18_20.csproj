@@ -215,129 +215,35 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Clases\clsCypher.cs" />
-    <Compile Include="Clases\clsEmpleado.cs" />
-    <Compile Include="Clases\clsImagenesProducto.cs" />
     <Compile Include="Clases\clsLogin.cs" />
-    <Compile Include="Clases\clsProducto.cs" />
-    <Compile Include="Clases\clsTipoProducto.cs" />
-    <Compile Include="Clases\clsUpload.cs" />
-    <Compile Include="Clases\clsUsuario.cs" />
     <Compile Include="Clases\TokenGenerator.cs" />
-    <Compile Include="Clases\TokenValidationHandler.cs" />
-    <Compile Include="Controllers\EmpleadosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\ProductosController.cs" />
-    <Compile Include="Controllers\TipoProductosController.cs" />
-    <Compile Include="Controllers\UploadFilesController.cs" />
-    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\CARGo.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
+    <Compile Include="Models\Administrador.cs">
+      <DependentUpon>DBEventos.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\CIUDad.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\CLIEnte.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\COntactoPRoveedor.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DBSuper.Context.cs">
+    <Compile Include="Models\DBEventos.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBSuper.Context.tt</DependentUpon>
+      <DependentUpon>DBEventos.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBSuper.cs">
+    <Compile Include="Models\DBEventos.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBSuper.tt</DependentUpon>
+      <DependentUpon>DBEventos.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBSuper.Designer.cs">
+    <Compile Include="Models\DBEventos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBSuper.edmx</DependentUpon>
+      <DependentUpon>DBEventos.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\DEPArtamento.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEtalleDEvolucion.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEtalleFActura.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEtalleFacturaCompra.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEVOlucion.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EMPLeado.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EMpleadoCArgo.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FACTura.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FActuraCOmpra.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\FotosEmpleado.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ImagenesProducto.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
+    <Compile Include="Models\Evento.cs">
+      <DependentUpon>DBEventos.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\libLogin.cs" />
-    <Compile Include="Models\NOtaCRedito.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PAI.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Perfil.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PRODucto.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PRoductoPRoveedor.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\PROVeedor.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SUCUrsal.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SUPErmercado.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TELEfono.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TIpoPRoducto.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TIpoTElefono.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Usuario.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Usuario_Perfil.cs">
-      <DependentUpon>DBSuper.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -360,22 +266,15 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Models\DBSuper.Context.tt">
+    <Content Include="Models\DBEventos.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DBSuper.Context.cs</LastGenOutput>
-      <DependentUpon>DBSuper.edmx</DependentUpon>
+      <DependentUpon>DBEventos.edmx</DependentUpon>
+      <LastGenOutput>DBEventos.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\DBSuper.tt">
+    <Content Include="Models\DBEventos.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBSuper.edmx</DependentUpon>
-      <LastGenOutput>DBSuper.cs</LastGenOutput>
-    </Content>
-    <EntityDeploy Include="Models\DBSuper.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBSuper.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\DBSuper.edmx.diagram">
-      <DependentUpon>DBSuper.edmx</DependentUpon>
+      <DependentUpon>DBEventos.edmx</DependentUpon>
+      <LastGenOutput>DBEventos.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -402,6 +301,13 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <EntityDeploy Include="Models\DBEventos.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBEventos.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\DBEventos.edmx.diagram">
+      <DependentUpon>DBEventos.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
